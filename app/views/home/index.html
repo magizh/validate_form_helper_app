@@ -1,0 +1,29 @@
+<html>
+<head>
+</head>
+<body bgcolor="silver">
+<div class="container">
+  <a href="http://github.com/mahil/validate_helper"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+
+  <h1>
+<a name="validate_helper" class="anchor" href="#validate_helper"><span class="mini-icon mini-icon-link"></span></a>Validate Helper</h1>
+<p>validate_helper.js is a jquery plugin that helps you use <a href="http://rickharrison.github.com/validate.js/">validate.js</a>  to validate forms, without the need for creating the validation object. Rather you simply add few attributes to the form elements as stated below.</p>
+<h2>Sample Sign In</h2>
+<form id="loginForm" name="loginForm" class="form-inline" action="#" method="POST">
+<div class="control-group">
+<input type="text" name="email" id="email" data-rules="required|valid_email" class="validate input-medium input-xlarge" placeholder="Email"><p class="help-block"></p>
+</div>
+<div class="control-group">
+<input type="password" name="password" id="password" data-rules="required" class="validate input-medium input-xlarge" placeholder="Password"><p class="help-block"></p>
+</div>
+<button type="submit" class="btn btn-primary">Sign in
+</button>
+</form>
+</div>
+
+<script>
+var $my_form =  $("#loginForm")
+$my_form.validate(function($form, e){alert("submitted")})
+</script>
+</body>
+</html>
