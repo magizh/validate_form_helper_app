@@ -3,3 +3,9 @@ h1 {
     font:120px 'Andada', 'Helvetica', Arial, sans-serif;
     margin:0 0 15px 0;
 }
+
+a:-webkit-any-link {
+color: -webkit-link;
+text-decoration: underline;
+cursor: auto;
+}
