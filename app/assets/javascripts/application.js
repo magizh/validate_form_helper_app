@@ -13,4 +13,3 @@
 //= require jquery-1.7.1.min.js
 //= require validate.min.js
 //= require validate_helper.min.js
-//= require dottoro-highlighter-v3-min.js

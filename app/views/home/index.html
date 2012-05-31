@@ -44,98 +44,15 @@ visit validatehelper.cloudfoundry.com to check out the form validation example a
 </form>
 <br>
 <h3> Sample code </h3>
-<div class="dottoro_highlight dr_hl_noLineNumbers">
-    <table class="dr_hl_container" cellpadding="0px" cellspacing="0px">
-        <tr>
-            <td class="dr_hl_codeCell">
-                <div class="dr_hl_codeContainer">
-<pre class="dr_hl_lang_html"><span class="html_tagop">&lt;</span><span class="html_tag"><a target="_blank" href="http://help.dottoro.com/lhgwjrev.php">form</a></span><span class="html_def"> </span><span class="html_attr"><a target="_blank" href="http://help.dottoro.com/lhrqtceb.php">name</a></span><span class="html_attrop">=</span><span class="html_attrvalue">"loginForm"</span><span class="html_def"> </span><span class="html_attr"><a target="_blank" href="http://help.dottoro.com/lhwedlrb.php">id</a></span><span class="html_attrop">=</span><span class="html_def"> </span><span class="html_attrvalue">"loginForm"</span><span class="html_def"> </span><span class="html_attr"><a target="_blank" href="http://help.dottoro.com/lhhrlgvr.php">action</a></span><span class="html_attrop">=</span><span class="html_attrvalue">"#"</span><span class="html_def"> </span><span class="html_attr"><a target="_blank" href="http://help.dottoro.com/lhqddmva.php">method</a></span><span class="html_attrop">=</span><span class="html_attrvalue">"POST"</span><span class="html_tagop">&gt;</span><span class="html_def">
-    </span><span class="html_tagop">&lt;</span><span class="html_tag"><a target="_blank" href="http://help.dottoro.com/lhlsbfsc.php">div</a></span><span class="html_def"> </span><span class="html_attr"><a target="_blank" href="http://help.dottoro.com/lhuoaxuk.php">class</a></span><span class="html_attrop">=</span><span class="html_attrvalue">"control-group"</span><span class="html_tagop">&gt;</span><span class="html_def">
-      </span><span class="html_tagop">&lt;</span><span class="html_tag"><a target="_blank" href="http://help.dottoro.com/lhtdrupr.php">input</a></span><span class="html_def"> </span><span class="html_attr"><a target="_blank" href="http://help.dottoro.com/lhtddjrk.php">type</a></span><span class="html_attrop">=</span><span class="html_attrvalue">"text"</span><span class="html_def"> </span><span class="html_attr"><a target="_blank" href="http://help.dottoro.com/lhwxtkga.php">name</a></span><span class="html_attrop">=</span><span class="html_attrvalue">"email"</span><span class="html_def"> </span><span class="html_attr"><a target="_blank" href="http://help.dottoro.com/lhwedlrb.php">id</a></span><span class="html_attrop">=</span><span class="html_attrvalue">"email"</span><span class="html_def"> </span><span class="html_attr_unknown">data-rules</span><span class="html_attrop">=</span><span class="html_attrvalue_unknown">"required|valid_email"</span><span class="html_def"> </span><span class="html_attr_unknown">data-rules</span><span class="html_attrop">=</span><span class="html_attrvalue_unknown">"Email"</span><span class="html_def"> </span><span class="html_attr"><a target="_blank" href="http://help.dottoro.com/lhuoaxuk.php">class</a></span><span class="html_attrop">=</span><span class="html_attrvalue">"validate"</span><span class="html_tagop">&gt;</span><span class="html_def">
-      </span><span class="html_tagop">&lt;</span><span class="html_tag"><a target="_blank" href="http://help.dottoro.com/lhqbeehc.php">p</a></span><span class="html_def"> </span><span class="html_attr"><a target="_blank" href="http://help.dottoro.com/lhuoaxuk.php">class</a></span><span class="html_attrop">=</span><span class="html_attrvalue">"help-block"</span><span class="html_tagop">&gt;&lt;/</span><span class="html_tag"><a target="_blank" href="http://help.dottoro.com/lhqbeehc.php">p</a></span><span class="html_tagop">&gt;</span><span class="html_def">
-    </span><span class="html_tagop">&lt;/</span><span class="html_tag"><a target="_blank" href="http://help.dottoro.com/lhlsbfsc.php">div</a></span><span class="html_tagop">&gt;</span><span class="html_def">
-    </span><span class="html_tagop">&lt;</span><span class="html_tag"><a target="_blank" href="http://help.dottoro.com/lhlsbfsc.php">div</a></span><span class="html_def"> </span><span class="html_attr"><a target="_blank" href="http://help.dottoro.com/lhuoaxuk.php">class</a></span><span class="html_attrop">=</span><span class="html_attrvalue">"control-group"</span><span class="html_tagop">&gt;</span><span class="html_def">
-      </span><span class="html_tagop">&lt;</span><span class="html_tag"><a target="_blank" href="http://help.dottoro.com/lhtdrupr.php">input</a></span><span class="html_def"> </span><span class="html_attr"><a target="_blank" href="http://help.dottoro.com/lhtddjrk.php">type</a></span><span class="html_attrop">=</span><span class="html_attrvalue">"password"</span><span class="html_def"> </span><span class="html_attr"><a target="_blank" href="http://help.dottoro.com/lhwxtkga.php">name</a></span><span class="html_attrop">=</span><span class="html_attrvalue">"password"</span><span class="html_def"> </span><span class="html_attr"><a target="_blank" href="http://help.dottoro.com/lhwedlrb.php">id</a></span><span class="html_attrop">=</span><span class="html_attrvalue">"password"</span><span class="html_def"> </span><span class="html_attr_unknown">data-rules</span><span class="html_attrop">=</span><span class="html_attrvalue_unknown">"required"</span><span class="html_def"> </span><span class="html_attr"><a target="_blank" href="http://help.dottoro.com/lhuoaxuk.php">class</a></span><span class="html_attrop">=</span><span class="html_attrvalue">"validate"</span><span class="html_tagop">&gt;</span><span class="html_def">
-      </span><span class="html_tagop">&lt;</span><span class="html_tag"><a target="_blank" href="http://help.dottoro.com/lhqbeehc.php">p</a></span><span class="html_def"> </span><span class="html_attr"><a target="_blank" href="http://help.dottoro.com/lhuoaxuk.php">class</a></span><span class="html_attrop">=</span><span class="html_attrvalue">"help-block"</span><span class="html_tagop">&gt;&lt;/</span><span class="html_tag"><a target="_blank" href="http://help.dottoro.com/lhqbeehc.php">p</a></span><span class="html_tagop">&gt;</span><span class="html_def">
-    </span><span class="html_tagop">&lt;/</span><span class="html_tag"><a target="_blank" href="http://help.dottoro.com/lhlsbfsc.php">div</a></span><span class="html_tagop">&gt;</span><span class="html_def">
-    </span><span class="html_tagop">&lt;</span><span class="html_tag"><a target="_blank" href="http://help.dottoro.com/lhraqvls.php">button</a></span><span class="html_def"> </span><span class="html_attr"><a target="_blank" href="http://help.dottoro.com/lhbhpkqt.php">type</a></span><span class="html_attrop">=</span><span class="html_attrvalue">"submit"</span><span class="html_def"> </span><span class="html_attr"><a target="_blank" href="http://help.dottoro.com/lhuoaxuk.php">class</a></span><span class="html_attrop">=</span><span class="html_attrvalue">"btn"</span><span class="html_tagop">&gt;</span><span class="html_def">Sign in</span><span class="html_tagop">&lt;/</span><span class="html_tag"><a target="_blank" href="http://help.dottoro.com/lhraqvls.php">button</a></span><span class="html_tagop">&gt;</span><span class="html_def">
-  </span><span class="html_tagop">&lt;/</span><span class="html_tag"><a target="_blank" href="http://help.dottoro.com/lhgwjrev.php">form</a></span><span class="html_tagop">&gt;</span></pre>
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <td class="dr_hl_footerCell">
-                <table class="dr_hl_footer" cellpadding="0px" cellspacing="0px">
-                    <tr>
-                        <td class="dr_hl_viewPlainCell"><div onclick="Dottoro.HighLighter.OnViewPlainButton (this);">View Plain</div></td>
-                        <td class="dr_hl_copyCell"><div onclick="Dottoro.HighLighter.OnCopyButton (this);">Copy to Clipboard</div></td>
-                        <td class="dr_hl_printCell"><div onclick="Dottoro.HighLighter.OnPrintButton (this);">Print</div></td>
-                        <td class="dr_hl_trademarkCell" align="right"><a target="_blank" href="http://tools.dottoro.com/services/highlighter/html.php">D.r</a>&trade;</td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
-</div>
+<script src="https://gist.github.com/2841362.js?file=sample_login_form.html"></script>
 <br>
 <br>
 <h3> Add the function call as shown below </h3>
-<div class="dottoro_highlight dr_hl_noLineNumbers">
-    <table class="dr_hl_container" cellpadding="0px" cellspacing="0px">
-        <tr>
-            <td class="dr_hl_codeCell">
-                <div class="dr_hl_codeContainer">
-<pre class="dr_hl_lang_html"><span class="html_tagop">&lt;</span><span class="html_tag"><a target="_blank" href="http://help.dottoro.com/lhcmkwcx.php">script</a></span><span class="html_tagop">&gt;</span><span class="jscript_def">
-</span><span class="jscript_keyword"><a target="_blank" href="http://help.dottoro.com/ljqepqhd.php">var</a></span><span class="jscript_def"> $my_form </span><span class="jscript_op">=</span><span class="jscript_def">  $</span><span class="jscript_op">(</span><span class="jscript_string">"#loginForm"</span><span class="jscript_op">)</span><span class="jscript_def">
-$my_form</span><span class="jscript_op">.</span><span class="jscript_def">validate</span><span class="jscript_op">()</span><span class="jscript_def">
-</span><span class="html_tagop">&lt;/</span><span class="html_tag"><a target="_blank" href="http://help.dottoro.com/lhcmkwcx.php">script</a></span><span class="html_tagop">&gt;</span></pre>
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <td class="dr_hl_footerCell">
-                <table class="dr_hl_footer" cellpadding="0px" cellspacing="0px">
-                    <tr>
-                        <td class="dr_hl_viewPlainCell"><div onclick="Dottoro.HighLighter.OnViewPlainButton (this);">View Plain</div></td>
-                        <td class="dr_hl_copyCell"><div onclick="Dottoro.HighLighter.OnCopyButton (this);">Copy to Clipboard</div></td>
-                        <td class="dr_hl_printCell"><div onclick="Dottoro.HighLighter.OnPrintButton (this);">Print</div></td>
-                        <td class="dr_hl_trademarkCell" align="right"><a target="_blank" href="http://tools.dottoro.com/services/highlighter/html.php">D.r</a>&trade;</td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
-</div>
+<script src="https://gist.github.com/2841367.js?file=sample_login_form_call.html"></script>
 <br>
 <br>
 <h3>Having an optional callback after validation </h3>
-<div class="dottoro_highlight dr_hl_noLineNumbers">
-    <table class="dr_hl_container" cellpadding="0px" cellspacing="0px">
-        <tr>
-            <td class="dr_hl_codeCell">
-                <div class="dr_hl_codeContainer">
-<pre class="dr_hl_lang_html"><span class="html_tagop">&lt;</span><span class="html_tag"><a target="_blank" href="http://help.dottoro.com/lhcmkwcx.php">script</a></span><span class="html_tagop">&gt;</span><span class="jscript_def">
-</span><span class="jscript_keyword"><a target="_blank" href="http://help.dottoro.com/ljqepqhd.php">var</a></span><span class="jscript_def"> $my_form </span><span class="jscript_op">=</span><span class="jscript_def">  $</span><span class="jscript_op">(</span><span class="jscript_string">"#loginForm"</span><span class="jscript_op">)</span><span class="jscript_def">
-$my_form</span><span class="jscript_op">.</span><span class="jscript_def">validate</span><span class="jscript_op">(</span><span class="jscript_keyword"><a target="_blank" href="http://help.dottoro.com/ljqepqhd.php">function</a></span><span class="jscript_op">(</span><span class="jscript_def">$form</span><span class="jscript_op">,</span><span class="jscript_def"> e</span><span class="jscript_op">){</span><span class="jscript_def"> </span><span class="jscript_method"><a target="_blank" href="http://help.dottoro.com/ljahjkmi.php">alert</a></span><span class="jscript_op">(</span><span class="jscript_string">"submitted"</span><span class="jscript_op">)</span><span class="jscript_def"> </span><span class="jscript_op">})</span><span class="jscript_def">
-</span><span class="html_tagop">&lt;/</span><span class="html_tag"><a target="_blank" href="http://help.dottoro.com/lhcmkwcx.php">script</a></span><span class="html_tagop">&gt;</span></pre>
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <td class="dr_hl_footerCell">
-                <table class="dr_hl_footer" cellpadding="0px" cellspacing="0px">
-                    <tr>
-                        <td class="dr_hl_viewPlainCell"><div onclick="Dottoro.HighLighter.OnViewPlainButton (this);">View Plain</div></td>
-                        <td class="dr_hl_copyCell"><div onclick="Dottoro.HighLighter.OnCopyButton (this);">Copy to Clipboard</div></td>
-                        <td class="dr_hl_printCell"><div onclick="Dottoro.HighLighter.OnPrintButton (this);">Print</div></td>
-                        <td class="dr_hl_trademarkCell" align="right"><a target="_blank" href="http://tools.dottoro.com/services/highlighter/html.php">D.r</a>&trade;</td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
-</div>
-
+<script src="https://gist.github.com/2841382.js?file=sample_login_form_callback.html"></script>
 </div>
 
 <script>
