@@ -10,8 +10,16 @@
   <h1>
 <a name="validate_helper" class="anchor" href="#validate_helper"><span class="mini-icon mini-icon-link"></span></a>Validate Helper</h1>
 <p style="font-size:15px;">Validate_helper.js is a jquery plugin that helps you use <a href="http://rickharrison.github.com/validate.js/">validate.js</a>  to validate forms, without the need for creating the validation object. Rather you simply add few attributes to the form elements as stated below.
-visit validatehelper.cloudfoundry.com to check out the form validation example and documentation. In addition to that validate_helper uses bootstrap to display the error messages. </p>
+In addition to that validate_helper uses <a href="http://twitter.github.com/bootstrap/">bootstrap</a> to display the error messages. </p>
 
+<h4> Special thanks to <a href="https://github.com/rickharrison">Rick Harrison</a> for <a href="http://rickharrison.github.com/validate.js/" >Validate.js</a>. Its awesome!</h4>
+<br>
+
+<a href="https://github.com/mahil/validate_helper/zipball/master" class="btn" rel="nofollow">
+    <span>Download as zip</span>
+  </a>
+  <br>
+  <br>
 <div style="font-size:15px;">
 <h3>Libraries required</h3>
 <ul>
@@ -20,17 +28,7 @@ visit validatehelper.cloudfoundry.com to check out the form validation example a
 <li>validate.js</li>
 <li>validate_helper.js</li>
 </ul>
-
-
-<h3>Form attributes to be added</h3>
-<ul>
-<li>Add name,id for the form tag</li>
-<li>Add class "validate" for the form elements you want to validate</li>
-<li>Add "data-rules" attribute to specify the rules in validate.js</li>
-<li>Add "data-display" attribute to specify the display attribute in validate.js (optional)</li>
-<li>Add control-group, help-block to display the errors</li>
-</ul>
-</div>
+<br>
 <h2>Sample Login In Form</h2>
 <form id="loginForm" name="loginForm" class="form-inline" action="#" method="POST">
 <div class="control-group">
@@ -42,6 +40,17 @@ visit validatehelper.cloudfoundry.com to check out the form validation example a
 <button type="submit" class="btn btn-primary">Sign in
 </button>
 </form>
+<br>
+
+<h3>Form attributes to be added</h3>
+<ul>
+<li>Add name,id for the form tag</li>
+<li>Add class "validate" for the form elements you want to validate</li>
+<li>Add "data-rules" attribute to specify the rules in validate.js</li>
+<li>Add "data-display" attribute to specify the display attribute in validate.js (optional)</li>
+<li>Add control-group, help-block to display the errors</li>
+</ul>
+</div>
 <br>
 <h3> Sample code </h3>
 <script src="https://gist.github.com/2841362.js?file=sample_login_form.html"></script>
